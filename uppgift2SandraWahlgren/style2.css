@@ -1,0 +1,149 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+body {
+	background-color: rgb(52, 51, 65);
+	
+}
+
+header{
+	background-image: url("planet.jpg");
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top:0;
+	margin-right: 190px;
+	border-radius: 30px;
+	
+	}
+
+header h1{
+	color: rgb(138, 130, 172);
+	padding-top: 100px;
+	padding-left: 200px;
+	font-size: 50px;
+}	
+
+header h2{
+	color: white;
+	font-size: 35px;
+	padding-left: 380px;
+}
+
+footer { 
+	text-align: center; 
+	margin-top: 60px;
+	text-align: left;
+	margin-left: 50px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	border-bottom: 2px solid rgb(145, 146, 189);
+	border-top: 2px solid rgb(145, 146, 189);
+	width: 300px;
+	text-align: center;
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.summary{
+	color: rgb(145, 146, 189);
+	border: 3px solid grey;
+	border-radius: 100%;
+	width: 320px;
+	height: 300px;
+	position: relative;
+	margin-top: 40px;
+	margin-left: 70px;
+	
+	
+}
+
+.summary p{
+	position: relative;
+	margin:0px;
+	text-align: center;
+	padding-top:50px;
+	padding-left:40px;
+	padding-right: 40px;
+	font-size: 20px;
+}
+
+.summary a{
+	
+	color: rgb(145, 146, 189);
+}
+
+.preamble{
+	margin-left: 400px;
+	color: rgb(145, 146, 189);
+	margin-right: 240px;
+}
+
+.explanation{
+	margin-right: 640px;
+	color: rgb(145, 146, 189);
+
+}
+.participation{
+	margin-right: 640px;
+	color: rgb(145, 146, 189);
+
+}
+.participation a{
+	color: rgb(145, 146, 189);
+
+}
+
+.benefits{
+	margin-right: 640px;
+	color: rgb(145, 146, 189);
+
+}
+.requirements{
+	margin-left: 600px;
+	color: rgb(145, 146, 189);
+	margin-right: 240px;
+
+}
+.requirements a{
+	color: rgb(145, 146, 189);
+}
+
+.sidebar{
+	width: 200px;
+	margin-right:0px;
+	z-index: 1;
+	top:0;
+	right: 0;
+	position: fixed;
+	background-color: rgb(43, 41, 68);
+
+}
+a{
+	color: rgb(145, 146, 189);
+}
+.sidebar h3{
+	color: rgb(145, 146, 189);
+	text-align: center;
+}
+
+.sidebar a{
+	text-decoration: none;
+}
+
+li{
+	color: rgb(145, 146, 189);
+}
+a:hover{
+	color: rgb(219, 213, 235);
+	text-decoration: underline;
+}
